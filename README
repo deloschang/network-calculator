@@ -1,0 +1,26 @@
+README File
+
+1. If a user does not enter a valid input at the menu, it says 
+"Not a valid input" and returns to the menu.
+
+2. Accepts network prefix (e.g. 24), not full subnet mask in 'i' menu portion
+For example, if user enters 255.255.255.0, it will error and return to menu
+
+3. Program assumes that getaddr.sh will be in the same dir. It will not look for it
+beyond the current directory: .  .
+
+4. If the bash script does not exist, a "sh: invalidfilename.sh" will appear
+and return user to the main menu.
+
+5. Program assumes computer uses ethernet (eth0). (like lab computers)
+(Assumed that you are logged into Linux machine on ethernet)
+
+6. Default bash script is getaddr.sh and filename is address.dat.
+These can be changed by modifying the constants in the header
+
+7. If user enters invalid IP address, it will tell user "invalid ip address"
+and return to menu.
+
+8. If user enters invalid prefix, it will tell user "invalid prefix" and return
+to menu.
+

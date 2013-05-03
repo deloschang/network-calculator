@@ -1,0 +1,10 @@
+Testing File
+
+1. Invalid full IP address (e.g. 256.128.20.233)
+2. Invalid menu input (e.g. abc)
+3. More than 20 characters in hostaddress/prefix input (buffer overflow)
+4. Invalid prefix (e.g. 33 or 255.255.255.0)
+5. Invalid bash input 
+6. No bash file 
+7. Insufficient arguments for bash file (no filename)
+8. No file with address and subnet mask from ifconfig
